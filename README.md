@@ -1,4 +1,16 @@
+### Performance
+1. Please checkout the [report](https://github.com/rava-dosa/nodeapp1/tree/main/reports)
+2. Generated using ab and 0x
+
+### Flow of the code
+
+1. Client Requests data
+2. If data is not found in cache, then a request is sent, data saved in cache, and response is returned to client
+3. If data is present in cache, we fetch that data and return.
+4. Cache is refreshed after 500 seconds
+
 ### Commands
+
 
 ```
 1. npm run serve :- to run server
