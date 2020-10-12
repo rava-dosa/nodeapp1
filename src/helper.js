@@ -1,6 +1,18 @@
+//this file contains helper function
+
 const request = require('./request')
 const router = require('./router')
-module.exports=async function requesthelper(myCache,headers,BASE_URL,subUrl,keyJson){
+/**
+ * 
+ * @param {Object} myCache 
+ * @param {Object} headers 
+ * @param {string} BASE_URL 
+ * @param {string} subUrl
+ * @param {Object} keyJson 
+ * 
+ * This function makes a request and store it in cache.
+ */
+module.exports=async function requestHelper(myCache,headers,BASE_URL,subUrl,keyJson){
     try{
         value=myCache.get(key)
         if(value==undefined){

@@ -1,3 +1,6 @@
+/**
+ * If present in environment get that api key or else provide a template key.
+ */
 module.exports=function getapikey(){
     var apiKey=process.env["x_rapidapi_key"]
     if(apiKey==undefined){

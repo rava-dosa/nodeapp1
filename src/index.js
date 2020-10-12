@@ -36,5 +36,4 @@ app.listen(PORT, HOST);
 setTimeout(()=>{
   jobs()
 },500)
-console.log(process.env);
 console.log(`Running on http://${HOST}:${PORT}`);

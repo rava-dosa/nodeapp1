@@ -1,6 +1,12 @@
 const fetch = require("node-fetch");
 const {URLSearchParams} = require('url')
 
+/**
+ * @param {string} url
+ * @param {Object} headers
+ * @param {Object} query 
+ * This function makes a get request with provided attributes
+ */
 module.exports= async function sendGetRequest(headers,url,query){
     
     const paramString = new URLSearchParams(query).toString();

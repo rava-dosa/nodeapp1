@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "serve": "node src/index.js",
+    "flamegraph": "npx 0x src/index.js",
+    "doc": "npx jsdoc -r src/ -d docs/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,9 @@
     "express": "^4.17.1",
     "node-cache": "^5.1.2",
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "0x": "^4.10.2",
+    "jsdoc": "^3.6.6"
   }
 }
