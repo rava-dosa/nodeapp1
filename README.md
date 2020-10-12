@@ -9,8 +9,11 @@
 3. If data is present in cache, we fetch that data and return.
 4. Cache is refreshed after 500 seconds
 
-### Commands
+### Postman Collection
+1. https://www.postman.com/collections/86d509e85669d64df5c2
 
+
+### Commands
 
 ```
 1. npm run serve :- to run server
