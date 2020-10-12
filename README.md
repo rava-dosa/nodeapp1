@@ -17,3 +17,10 @@
 2. npm run flamegraph :- to generate flamegraph
 3. npm run doc :- to generate docs
 ```
+
+### Docker Setup
+
+```
+1. docker build -t $USERNAME/nodeapp1 .
+2. docker run -p 8081:8080 -d $USERNAME/nodeapp1
+```
