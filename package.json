@@ -1,0 +1,25 @@
+{
+  "name": "nodeapp1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rava-dosa/nodeapp1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rava-dosa/nodeapp1/issues"
+  },
+  "homepage": "https://github.com/rava-dosa/nodeapp1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.1"
+  }
+}
